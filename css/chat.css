@@ -1,0 +1,163 @@
+.loginPanle,.chatPanle{
+    width:260px;
+    height:480px;
+    background:rgba(54,54,54,1);
+    border:1px solid rgba(0,0,0,1);
+    border-radius:5px;
+    position:absolute;
+    bottom:10px;
+    right:10px;
+    display:none;
+    opacity:0;
+    transition:all .5s;
+    /*box-shadow:0px 0px 3px rgba(0,0,0,1);*/
+}
+.chatEnable{
+    display:block;
+    opacity:1;
+}
+.loginPanle .l{
+    color:rgba(255,255,255,0.6);
+    font-size:30px;
+    width:100px;
+    height:100px;
+    background:rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.1);
+    border-radius:50%;
+    line-height:100px;
+    text-align:center;
+    margin:100px auto 0;
+}
+.loginPanle .p{
+    line-height:32px;
+    text-align:center;
+    font-size:12px;
+    color:rgba(255,255,255,0.4);
+}
+.loginPanle .put input,.chatPanle input{
+    outline:none;
+    transition:all .5s;
+    width:90%;
+    display:block;
+    height:32px;
+    line-height:32px;
+    font-size:12px;
+    text-align:center;
+}
+.loginPanle .put input[type=text]{
+    background:rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.1);
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    margin:20px auto 0;
+    color:rgba(255,255,255,0.6);
+}
+.loginPanle .put input[type=button],.chatPanle input[type=button]{
+    background:rgba(0,0,0,0.3);
+    border:1px solid rgba(0,0,0,0.5);
+    border-bottom-left-radius:3px;
+    border-bottom-right-radius:3px;
+    margin:0 auto;
+}
+.loginPanle .put input[type=button]:hover,.chatPanle input[type=button]:hover{
+    background:rgba(0,0,0,0.5);
+}
+.loginPanle .errormg{
+    margin:20px auto;
+    text-align:center;
+    color:red;
+    font-size:12px;
+}
+.chatPanle .hd{
+    background:rgba(0,0,0,0.3);
+    border-bottom:1px solid rgba(0,0,0,0.5);
+    height:30px;
+    line-height:30px;
+    text-indent:.5em;
+    font-size:12px;
+    color:rgba(255,255,255,0.6);
+}
+.chatPanle .historyMsg{
+    /*background:rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.1);*/
+    width:90%;
+    height:320px;
+    margin:10px auto;
+    position:relative;
+}
+.chatPanle .notic{
+    position:absolute;
+    top:30px;
+    left:0;
+    width:100%;
+    font-size:12px;
+    line-height:20px;
+}
+.chatPanle .notic span{
+    background:rgba(255,255,255,0.6);
+    display:block;
+    overflow:hidden;
+    opacity:0;
+    height:32px;
+    line-height:32px;
+    text-indent:10px;
+}
+.chatPanle .notic span.noticShow{
+    -webkit-animation:top_in 1s;
+    -moz-animation:top_in 1s;
+    animation:top_in 1s;
+}
+@-webkit-keyframes top_in{
+    0%{opacity:1;height:32px;}
+    60%{opacity:1;height:32px;}
+    100%{opacity:0;height:0px;}
+}
+@-moz-keyframes top_in{
+    0%{opacity:1;height:32px;}
+    60%{opacity:1;height:32px;}
+    100%{opacity:0;height:0px;}
+}
+@keyframes top_in{
+    0%{opacity:1;height:32px;}
+    60%{opacity:1;height:32px;}
+    100%{opacity:0;height:0px;}
+}
+.chatPanle .msgInput{
+    background:rgba(255,255,255,0.1);
+    border:1px solid rgba(255,255,255,0.1);
+    border-top-left-radius:3px;
+    border-top-right-radius:3px;
+    width:90%;
+    height:60px;
+    margin:0 auto;
+    display:block;
+    color:rgba(255,255,255,0.6);
+    outline: none;
+    font-size:13px;
+}
+.chat_pop{
+    margin-bottom:5px;
+}
+.chat_name{
+    display: inline-block;
+    padding: 5px;
+    background: rgba(255,255,255,0.1);
+    height: 24px;
+    line-height: 14px;
+    position: relative;
+    font-size: 13px;
+    border-top-left-radius:5px;
+    border-top-right-radius:5px;
+}
+.chat_tim{
+    display:none;
+}
+.chat_mgs{
+    display: block;
+    width: 100%;
+    padding:5px;
+    background: rgba(255,255,255,0.1);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}

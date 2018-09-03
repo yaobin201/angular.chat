@@ -1,0 +1,26 @@
+<div class="minWrap" id="minWrap">
+    <div class="minWin window-about">
+        <div class="mwHd">
+            <span class="mwClose close-about" ui-sref="index">关闭</span>
+            <span class="mwMin">最小化</span>
+            <strong class="mwTil">案例</strong>
+        </div>
+        <div class="mwBd">
+            <div class="mwMenu">
+                <i>menu</i>
+                <span class="menus">
+                <a ui-sref="index.cases.list">全部案例</a>
+                <a ng-repeat="c in casesclasslist" ui-sref-active="on" ui-sref="index.cases.list({id:c.id})">{{c.name}}</a>
+                </span>
+                <shares styles="default"></shares>
+                <span class="shares">
+                    <shares ng-repeat="sh in shareslist" data="sh"></shares>
+                </span>
+            </div>
+            <div class="mwCon" id="mwCon" ui-view>
+
+            </div>
+            <div class="mwFt"></div>
+        </div>
+    </div>
+</div>

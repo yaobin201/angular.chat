@@ -1,0 +1,46 @@
+{
+    "default": [
+        {
+            "id": 1,
+            "class": "weibo",
+            "url": "www.binsw.com",
+            "pic": "http://www.9qu.cn/images/index_y_07.png",
+            "title": "html5网站设计制作",
+            "summary": "",
+            "appkey":"1189723395",
+            "http":"http://service.weibo.com/share/share.php?"
+        },
+        {
+            "id": 2,
+            "class": "tx",
+            "url": "www.binsw.com",
+            "pic": "http://www.9qu.cn/images/index_y_07.png",
+            "title": "html5网站设计制作",
+            "summary": "",
+            "appkey":"1189723395",
+            "http":"http://share.v.t.qq.com/index.php?"
+        },
+        {
+            "id": 3,
+            "class": "qq",
+            "url": "www.binsw.com",
+            "pic": "http://www.9qu.cn/images/index_y_07.png",
+            "title": "html5网站设计制作",
+            "summary": "",
+            "desc":"desc",
+            "site":"site",
+            "http":"http://connect.qq.com/widget/shareqq/index.html?"
+        },
+        {
+            "id": 4,
+            "class": "kj",
+            "url": "www.binsw.com",
+            "pic": "http://www.9qu.cn/images/index_y_07.png",
+            "title": "html5网站设计制作",
+            "summary": "",
+            "desc":"desc",
+            "site":"site",
+            "http":"http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?"
+        }
+    ]
+}

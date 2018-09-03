@@ -1,0 +1,105 @@
+{
+    "m": [
+        {
+            "id": "t_sethome",
+            "name": "设为首页"
+        },
+        {
+            "id": "t_bookmark",
+            "name": "加入收藏"
+        },
+        {
+            "id": "t_qq",
+            "name": "QQ"
+        },
+        {
+            "id": "t_tel",
+            "name": "电话"
+        },
+        {
+            "id": "t_msg",
+            "name": "留言"
+        },
+        {
+            "id": "t_mail",
+            "name": "邮箱"
+        }
+    ],
+    "s": [
+        {
+            "class": "ico_home",
+            "name": "设为首页",
+            "list": [],
+            "p": {
+                "href": "#####",
+                "text": "设为首页"
+            }
+        },
+        {
+            "class": "ico_book",
+            "name": "加入收藏",
+            "list": [],
+            "p": {
+                "href": "#####",
+                "text": "加入收藏"
+            }
+        },
+        {
+            "class": "ico_qq",
+            "name": "在线咨询",
+            "list": [
+                {
+                    "class": "qq",
+                    "href": "##",
+                    "text": "QQ咨询-1"
+                },
+                {
+                    "class": "qq",
+                    "href": "##",
+                    "text": "QQ咨询-2"
+                },
+                {
+                    "class": "qq",
+                    "href": "##",
+                    "text": "QQ咨询-3"
+                }
+            ],
+            "p": {}
+        },
+        {
+            "class": "ico_tel",
+            "name": "拨打电话",
+            "list": [
+                {
+                    "class": "m",
+                    "href": "##",
+                    "text": "18500000000"
+                },
+                {
+                    "class": "p",
+                    "href": "##",
+                    "text": "0717-76875235"
+                }
+            ],
+            "p": {}
+        },
+        {
+            "class": "ico_msg",
+            "name": "在线留言",
+            "list": [],
+            "p": {
+                "href": "#####",
+                "text": "在线留言"
+            }
+        },
+        {
+            "class": "ico_mail",
+            "name": "联系邮箱",
+            "list": [],
+            "p": {
+                "href": "#####",
+                "text": "yaobinyinhe@126.com"
+            }
+        }
+    ]
+}

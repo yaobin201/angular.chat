@@ -1,0 +1,71 @@
+[
+    {
+        "about": [
+            {
+                "url": "profile",
+                "name": "简介"
+            },
+            {
+                "url": "honor",
+                "name": "荣誉"
+            },
+            {
+                "url": "history",
+                "name": "历程"
+            },
+            {
+                "url": "teams",
+                "name": "团队"
+            },
+            {
+                "url": "introduce",
+                "name": "自述"
+            }
+        ]
+    },
+    {
+        "cases": [
+            {
+                "url": "companys",
+                "name": "企业站"
+            },
+            {
+                "url": "shops",
+                "name": "购物商城"
+            },
+            {
+                "url": "doors",
+                "name": "门户站"
+            },
+            {
+                "url": "blogs",
+                "name": "博客站"
+            },
+            {
+                "url": "personage",
+                "name": "个人站"
+            }
+        ]
+    }
+    ,
+    {
+        "websites": [
+            {
+                "url": "intro",
+                "name": "建站介绍"
+            },
+            {
+                "url": "process",
+                "name": "建站流程"
+            }
+        ]
+    },
+    {
+        "contact": [
+            {
+                "url": "conn",
+                "name": "联系方式"
+            }
+        ]
+    }
+]

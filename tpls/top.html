@@ -1,0 +1,33 @@
+<div ng-controller="topPopController">
+    <div id="menuBar">
+        <span id="logo">bin logo</span>
+    <span id="menu">
+        <a ng-class="{active:$state.includes('index')}" ui-sref="index">主页</a>
+        <a ng-class="{active:$state.includes('about')}" ui-sref="index.about.detail">关于</a>
+        <a ng-class="{active:$state.includes('case')}" ui-sref="index.cases.list">案例</a>
+        <a ng-class="{active:$state.includes('website')}" ui-sref="website">建站</a>
+        <a ng-class="{active:$state.includes('contactus')}" ui-sref="contactus">联系</a>
+    </span>
+        <time></time>
+        <!--<input type="hidden" ng-model="conn.m"/>-->
+        <span id="barBtn">
+            <!--<empopbtn ng-repeat="e in conn.m" id="{{e.id}}"></empopbtn>-->
+            <empopbtn ng-repeat="e in conn.m" ng-model="e"></empopbtn>
+            <!--<em ng-repeat="e in conn.m" id="{{e.id}}">{{e.name}}</em>-->
+        </span>
+    </div>
+    <div id="topPop">
+        <div class="p_mbox" ng-repeat="t in conn.s">
+            <span class="bar"></span>
+            <span class="ico"><em class="{{t.class}}">{{t.name}}</em></span>
+            <ul>
+                <li ng-repeat="s in t.list"><span><em class="{{s.class}}"></em></span><a
+                        href="{{s.href}}">{{s.text}}</a>
+                </li>
+            </ul>
+            <p><a href="{{t.p.href}}">{{t.p.text}}</a></p>
+        </div>
+        <em id="p_trig">art</em>
+    </div>
+</div>
+<div ui-view="Panle"  class="winPanle" ></div>
